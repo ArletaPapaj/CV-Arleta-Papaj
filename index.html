@@ -14,12 +14,18 @@
   </head>
 
   <body>
-    <select id="languageSelect">
-      <option value="pl" selected="selected">PL</option>
-      <option value="eng">ENG</option>
-    </select>  
-
-    <button class="convert">Convert to PDF</button>
+    <div id="mySidenav">
+      <a href="#" id="convert">
+        <button id="convert_button">Download</button>
+        <i class="fa fa-file-pdf-o"></i>
+      </a>
+      <a href="#" id="language">
+        <select id="languageSelect">
+          <option value="pl" selected="selected">PL</option>
+          <option value="eng">ENG</option>
+        </select><i class="fa fa-globe"></i>
+      </a>  
+    </div>
   
     <div id="main_page">
       <header> 

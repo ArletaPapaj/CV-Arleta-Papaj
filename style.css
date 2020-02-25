@@ -14,38 +14,30 @@ body {
 
 #languageSelect {
   padding: 5px;
-  position: fixed;
-  bottom: 70px;
-  left: 20px;
   font-size: 18px;
   background-color: #9EA990;
   color: white;
   cursor: pointer;
   padding: 5px;
   border-radius: 4px;
+  margin-right: 0px;
+  border: 1px #505936 solid;
 }
 
-.convert {
+#convert_button {
   padding: 5px;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
   font-size: 18px;
-  background-color: #9EA990;
+  background-color: #505936;
   color: white;
   cursor: pointer;
-  padding: 5px;
   border-radius: 4px;
-  border: none;
+  border: 1px #9EA990 solid;
+  margin-right: 0px;
 }
 
 a {
   color: #9EA990;
   text-decoration: none;
-}
-
-a:hover {
-  opacity: 0.5;
 }
 
 article {
@@ -89,8 +81,6 @@ header {
   padding: 0px 10px;
 }
 
-
-
 header img {
   border-radius: 50%;
   max-width: 200px;
@@ -132,7 +122,6 @@ a .fab {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-
 
 .proffesion .title, .institution .title{
   color: #3b3b3b;
@@ -198,6 +187,43 @@ footer {
   box-shadow: 5px 10px 15px #182019;
 }
 
+#mySidenav a {
+  position: fixed;
+  left: -120px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#mySidenav a {
+  text-align: right;
+}
+
+i {
+  margin-left: 40px;
+}
+
+#convert {
+  top: 60px;
+  background-color: #505936;
+}
+
+#language {
+  top: 130px;
+  background-color: #9EA990;
+}
+
+.fa {
+font-size: 25px;
+}
 
 @media only screen and (max-width: 768px) {
   .proffesion {
