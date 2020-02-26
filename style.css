@@ -211,6 +211,10 @@ footer {
   text-align: right;
 }
 
+#main_contact a {
+  color: #3b3b3b;
+}
+
 #convert {
   top: 60px;
   background-color: #505936;
@@ -241,6 +245,11 @@ font-size: 25px;
   .institution .title, .institution .descrition {
     max-width: 100%;
   }
+
+  #main_page {
+    width: 70%;
+    margin: 80px auto;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -258,5 +267,14 @@ font-size: 25px;
   #main_contact li{
     margin: 0;
     display: block;
+  }
+
+  #main_page {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  #mySidenav a {
+    left: -145px;
   }
 }
