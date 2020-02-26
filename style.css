@@ -12,6 +12,10 @@ body {
   color: #3b3b3b;
 }
 
+#convert i, #language i {
+  margin-left: 40px;
+}
+
 #languageSelect {
   padding: 5px;
   font-size: 18px;
@@ -205,10 +209,6 @@ footer {
 
 #mySidenav a {
   text-align: right;
-}
-
-i {
-  margin-left: 40px;
 }
 
 #convert {
