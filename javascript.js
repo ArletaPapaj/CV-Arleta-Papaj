@@ -75,7 +75,7 @@ var translations = {
     
   var langCode = $("#languageSelect option:selected").val();
   
-  for (i = 1; i < 31; i++) {
+  for (i = 1; i < 34; i++) {
     var a = "m" + i;
     var str = translations[langCode][a];
     var x = "#m" + i;
