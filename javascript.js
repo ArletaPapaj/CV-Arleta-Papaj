@@ -1,3 +1,20 @@
+function downloadVersion() {
+  
+  var selectedValue = document.getElementById("languageSelect").value;
+  var convert = document.getElementById("convert");
+  var convertButton = document.getElementById("convert_button");
+  
+  
+  if (selectedValue == "pl") {
+    convert.setAttribute("href", "./Arleta Papaj - Curriculum Vitae pl.pdf");
+    convertButton.setAttribute("href", "./Arleta Papaj - Curriculum Vitae pl.pdf");
+  } 
+  else {
+    convert.setAttribute("href", "./Arleta Papaj - Curriculum Vitae eng.pdf");
+    convertButton.setAttribute("href", "./Arleta Papaj - Curriculum Vitae eng.pdf");
+  }
+}
+
 var translations = {
     'pl': {
       'm1': 'Doświadczenie zawodowe',
